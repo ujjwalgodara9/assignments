@@ -1,4 +1,4 @@
-function mathMethods(value) {
+ function mathMethods(value) {
   console.log("Original Value:", value);
 
   let rounded = Math.round(value);

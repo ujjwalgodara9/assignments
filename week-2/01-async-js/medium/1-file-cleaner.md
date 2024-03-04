@@ -11,3 +11,20 @@ After the program runs, the output should be
 ```
 hello world my name is raman
 ```
+
+const fs=require('fs')
+
+function edit(let str){
+    return str.replace(/\s+/g,' ').trim()
+}
+
+let content
+
+fs.readFile(filename,'etf',(err,data)=>{
+    let ans=edit(data);
+
+    fs.writeFile(filename,ans,(err)=>{
+        console.log(done);
+    });
+})
+
